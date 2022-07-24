@@ -22,6 +22,6 @@ end
 spell:name("lavafungus ring")
 spell:words("###6002")
 spell:needLearn(false)
-spell:cooldown("2000")
+spell:cooldown(0 * "2000")
 spell:isSelfTarget(true)
 spell:register()

@@ -20,7 +20,7 @@ end
 
 spell:name("Magic Wall Rune")
 spell:group("attack")
-spell:cooldown(2 * 1000)
+spell:cooldown(0 * 2 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:level(32)
 spell:magicLevel(9)

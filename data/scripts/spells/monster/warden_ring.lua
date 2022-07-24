@@ -21,6 +21,6 @@ end
 spell:name("warden ring")
 spell:words("###476")
 spell:needLearn(false)
-spell:cooldown("2000")
+spell:cooldown(0 * "2000")
 spell:isSelfTarget(true)
 spell:register()
