@@ -1,9 +1,6 @@
 local addCharm = TalkAction("/addcharms")
 
 function addCharm.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 	local usage = "/addcharms PLAYER NAME,AMOUNT"
 	if param == "" then
 		player:sendCancelMessage("Command param required. Usage: ".. usage)
@@ -34,9 +31,6 @@ addCharm:register()
 local resetCharm = TalkAction("/resetcharms")
 
 function resetCharm.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	if param == "" then
 		param = player:getName()
@@ -60,9 +54,6 @@ resetCharm:register()
 local charmExpansion = TalkAction("/charmexpansion")
 
 function charmExpansion.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	if param == "" then
 		param = player:getName()
@@ -86,9 +77,6 @@ charmExpansion:register()
 local charmRune = TalkAction("/charmrunes")
 
 function charmRune.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	if param == "" then
 		param = player:getName()
@@ -112,9 +100,6 @@ charmRune:register()
 local setBestiary = TalkAction("/setbestiary")
 
 function setBestiary.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	local usage = "/setbestiary PLAYER NAME,MONSTER NAME,AMOUNT"
 	if param == "" then

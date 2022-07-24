@@ -1,9 +1,6 @@
 local closeServer = TalkAction("/closeserver")
 
 function closeServer.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	if param == "shutdown" then
 		Game.setGameState(GAME_STATE_SHUTDOWN)

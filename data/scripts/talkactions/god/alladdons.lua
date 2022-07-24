@@ -22,10 +22,6 @@ local looktypes = {
 }
 
 function addons.onSay(player, words, param)
-	if not player:getGroup():getAccess() then
-		return true
-	end
-
 	local target
 	if param == '' then
 		target = player:getTarget()

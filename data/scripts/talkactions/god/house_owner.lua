@@ -1,9 +1,6 @@
 local houseOwner = TalkAction("/owner")
 
 function houseOwner.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	local tile = Tile(player:getPosition())
 	local house = tile and tile:getHouse()

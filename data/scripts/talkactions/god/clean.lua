@@ -1,9 +1,6 @@
 local clean = TalkAction("/clean")
 
 function clean.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	local itemCount = cleanMap()
 	if itemCount ~= 0 then

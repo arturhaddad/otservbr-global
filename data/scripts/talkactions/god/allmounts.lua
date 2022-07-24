@@ -2,10 +2,6 @@
 
 local mounts = TalkAction("/mounts")
 function mounts.onSay(player, words, param)
-    if not player:getGroup():getAccess() then
-        return true
-    end
-
     local target
     if param == '' then
         target = player:getTarget()

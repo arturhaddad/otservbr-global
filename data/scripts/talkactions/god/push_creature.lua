@@ -1,9 +1,6 @@
 local pushCreature = TalkAction("/c")
 
 function pushCreature.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return true
-	end
 
 	if param == "" then
 		player:sendCancelMessage("Command param required.")

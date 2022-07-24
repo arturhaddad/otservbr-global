@@ -1,15 +1,6 @@
 local gold_rank = TalkAction("/goldrank")
 
 function gold_rank.onSay(player, words, param)
-
-	if not player:getGroup():getAccess() then
-		return true
-	end
-
-	if player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return false
-	end
-
 	logCommand(player, words, param)
 
 	local resultId = db.storeQuery("SELECT `balance`, `name` FROM `players` WHERE group_id < 3 ORDER BY balance DESC LIMIT 10")

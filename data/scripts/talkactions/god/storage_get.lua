@@ -2,14 +2,6 @@ local storageGet = TalkAction("/get")
 
 function storageGet.onSay(cid, words, param)
 	local player = Player(cid)
-	if not player:getGroup():getAccess() then
-		return true
-	end
-
-	if player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-		return false
-	end
-
 	local split = param:split(",")
 	if split[2] == nil then
 		player:sendCancelMessage("Insufficient parameters.")

@@ -4,15 +4,6 @@ local new_file_name = 'monster_count.txt'
 local count_monsters = TalkAction("/countmonsters")
 
 function count_monsters.onSay(player, words, param)
-
-    if not player:getGroup():getAccess() then
-        return true
-    end
-
-    if player:getAccountType() < ACCOUNT_TYPE_NORMAL then
-        return false
-    end
-
 	logCommand(player, words, param)
 
 	local open_file = io.open(xml_monster_dir, "r")
