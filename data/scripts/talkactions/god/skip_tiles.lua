@@ -1,7 +1,6 @@
 local skipTiles = TalkAction("/a")
 
 function skipTiles.onSay(player, words, param)
-
 	if param == "" then
 		player:sendCancelMessage("Command param required.")
 		return false
