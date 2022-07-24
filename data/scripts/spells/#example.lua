@@ -28,7 +28,7 @@ spell:needTarget(true)
 spell:isAggressive(false)
 spell:allowFarUse(true)
 spell:charges(25)
-spell:vocation("sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:register()
 
 local conjureRune = Spell(SPELL_INSTANT)

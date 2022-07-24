@@ -9,7 +9,7 @@ function count_monsters.onSay(player, words, param)
         return true
     end
 
-    if player:getAccountType() < ACCOUNT_TYPE_GOD then
+    if player:getAccountType() < ACCOUNT_TYPE_NORMAL then
         return false
     end
 

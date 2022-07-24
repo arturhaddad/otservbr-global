@@ -32,7 +32,7 @@ end
 spell:name("Mass Healing")
 spell:words("exura gran mas res")
 spell:group("healing")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:id(82)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(1 * 1000)

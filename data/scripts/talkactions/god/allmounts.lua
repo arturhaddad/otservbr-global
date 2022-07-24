@@ -22,7 +22,7 @@ function mounts.onSay(player, words, param)
         return false
     end
 
-    if player:getAccountType() < ACCOUNT_TYPE_GOD  then
+    if player:getAccountType() < ACCOUNT_TYPE_NORMAL  then
         player:sendTextMessage(MESSAGE_EVENT_ADVANCE, 'Cannot perform action.')
         return false
     end

@@ -14,7 +14,7 @@ function set_light.onSay(player, words, param)
 		return true
 	end
 
-	if player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return false
 	end
 

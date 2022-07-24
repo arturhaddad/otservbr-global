@@ -1,7 +1,7 @@
 local houseOwner = TalkAction("/owner")
 
 function houseOwner.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 

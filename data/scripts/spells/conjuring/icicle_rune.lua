@@ -7,7 +7,7 @@ end
 spell:name("Icicle Rune")
 spell:words("adori frigo")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:level(28)

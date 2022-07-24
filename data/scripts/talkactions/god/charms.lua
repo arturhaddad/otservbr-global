@@ -1,7 +1,7 @@
 local addCharm = TalkAction("/addcharms")
 
 function addCharm.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 	local usage = "/addcharms PLAYER NAME,AMOUNT"
@@ -34,7 +34,7 @@ addCharm:register()
 local resetCharm = TalkAction("/resetcharms")
 
 function resetCharm.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 
@@ -60,7 +60,7 @@ resetCharm:register()
 local charmExpansion = TalkAction("/charmexpansion")
 
 function charmExpansion.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 
@@ -86,7 +86,7 @@ charmExpansion:register()
 local charmRune = TalkAction("/charmrunes")
 
 function charmRune.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 
@@ -112,7 +112,7 @@ charmRune:register()
 local setBestiary = TalkAction("/setbestiary")
 
 function setBestiary.onSay(player, words, param)
-	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_GOD then
+	if not player:getGroup():getAccess() or player:getAccountType() < ACCOUNT_TYPE_NORMAL then
 		return true
 	end
 

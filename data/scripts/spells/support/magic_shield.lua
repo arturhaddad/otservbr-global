@@ -18,7 +18,7 @@ end
 spell:name("Magic Shield")
 spell:words("utamo vita")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true", "sorcerer;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:id(44)
 spell:cooldown(14 * 1000)
 spell:groupCooldown(2 * 1000)

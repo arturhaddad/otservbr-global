@@ -21,7 +21,7 @@ end
 spell:name("Intense Wound Cleansing")
 spell:words("exura gran ico")
 spell:group("healing")
-spell:vocation("knight;true", "elite knight;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:id(158)
 spell:cooldown(600000) -- 600 sec
 spell:groupCooldown(1000)

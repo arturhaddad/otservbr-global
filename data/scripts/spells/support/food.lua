@@ -23,7 +23,7 @@ end
 spell:name("Food")
 spell:words("exevo pan")
 spell:group("support")
-spell:vocation("druid;true", "elder druid;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:id(42)
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
