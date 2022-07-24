@@ -204,8 +204,14 @@ local items = {
 		slot = "right-hand",
 		level = 250,
 		vocation = {
-			{"Paladin", true, true},
-			{"Royal Paladin"}
+			{"Sorcerer"},
+			{"Master Sorcerer"},
+			{"Druid"},
+			{"Elder Druid"},
+			{"Knight"},
+			{"Elite Knight"},
+			{"Paladin"},
+			{"Royal Paladin"},
 		}
 	},
 	{
