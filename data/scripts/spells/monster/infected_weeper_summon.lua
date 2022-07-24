@@ -26,5 +26,5 @@ end
 spell:name("infected weeper summon")
 spell:words("###291")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

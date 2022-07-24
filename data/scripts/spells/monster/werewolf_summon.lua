@@ -26,5 +26,5 @@ end
 spell:name("werewolf summon")
 spell:words("###160")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

@@ -26,5 +26,5 @@ end
 spell:name("omrafir summon")
 spell:words("###317")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

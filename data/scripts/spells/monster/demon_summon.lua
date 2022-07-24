@@ -21,5 +21,5 @@ end
 spell:name("demon summon")
 spell:words("###240")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

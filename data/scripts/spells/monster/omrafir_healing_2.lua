@@ -20,5 +20,5 @@ end
 spell:name("omrafir healing 2")
 spell:words("###346")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

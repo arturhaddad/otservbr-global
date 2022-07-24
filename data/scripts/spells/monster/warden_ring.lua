@@ -20,7 +20,7 @@ end
 
 spell:name("warden ring")
 spell:words("###476")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:cooldown("2000")
 spell:isSelfTarget(true)
 spell:register()

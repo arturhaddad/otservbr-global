@@ -26,5 +26,5 @@ end
 spell:name("killer rabbit summon")
 spell:words("###272")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

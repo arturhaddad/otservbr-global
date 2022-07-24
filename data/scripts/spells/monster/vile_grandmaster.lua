@@ -17,5 +17,5 @@ end
 spell:name("vile grandmaster")
 spell:words("##405")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

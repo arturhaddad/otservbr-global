@@ -29,5 +29,5 @@ end
 spell:name("the welter heal")
 spell:words("###336")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

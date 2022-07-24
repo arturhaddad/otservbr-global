@@ -21,5 +21,5 @@ end
 spell:name("hell hole summon")
 spell:words("###300")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

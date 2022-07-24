@@ -26,5 +26,5 @@ end
 spell:name("big boss trolliver summon")
 spell:words("###135")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

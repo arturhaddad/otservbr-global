@@ -26,5 +26,5 @@ end
 spell:name("flamecaller zazrak summon")
 spell:words("###139")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

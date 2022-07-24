@@ -26,5 +26,5 @@ end
 spell:name("grand mother foulscale summon")
 spell:words("###154")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

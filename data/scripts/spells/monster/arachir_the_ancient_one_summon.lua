@@ -26,5 +26,5 @@ end
 spell:name("arachir the ancient one summon")
 spell:words("###128")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

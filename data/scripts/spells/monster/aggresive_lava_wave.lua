@@ -44,7 +44,7 @@ end
 
 spell:name("aggressivelavawave")
 spell:words("###464")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:cooldown("2000")
 spell:isSelfTarget(true)

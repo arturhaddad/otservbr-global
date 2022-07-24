@@ -26,5 +26,5 @@ end
 spell:name("lizard dragon priest summon")
 spell:words("###138")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

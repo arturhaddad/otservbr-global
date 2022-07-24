@@ -31,5 +31,5 @@ end
 spell:name("destruction summon")
 spell:words("###418")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

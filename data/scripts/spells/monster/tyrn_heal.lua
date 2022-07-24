@@ -19,5 +19,5 @@ end
 spell:name("tyrn heal")
 spell:words("###345")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

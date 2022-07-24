@@ -38,6 +38,6 @@ end
 
 spell:name("ravennousLavaLurkerWave")
 spell:words("###465")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:cooldown("2000")
 spell:register()

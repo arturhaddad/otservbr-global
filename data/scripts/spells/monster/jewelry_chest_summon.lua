@@ -28,5 +28,5 @@ end
 spell:name("jewelry chest summon")
 spell:words("###316")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

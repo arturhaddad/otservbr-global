@@ -55,5 +55,5 @@ end
 spell:name("canopic jar heal")
 spell:words("###390")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

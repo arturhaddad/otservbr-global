@@ -46,5 +46,5 @@ end
 spell:name("terofar heal")
 spell:words("###391")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

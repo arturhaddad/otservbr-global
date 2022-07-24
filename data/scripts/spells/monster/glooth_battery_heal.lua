@@ -30,5 +30,5 @@ end
 spell:name("glooth battery heal")
 spell:words("###400")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

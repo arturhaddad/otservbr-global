@@ -26,5 +26,5 @@ end
 spell:name("monstor summon")
 spell:words("###274")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

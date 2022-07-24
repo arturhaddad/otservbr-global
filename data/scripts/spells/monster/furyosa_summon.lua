@@ -26,5 +26,5 @@ end
 spell:name("furyosa summon")
 spell:words("###141")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

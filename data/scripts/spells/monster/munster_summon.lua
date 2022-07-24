@@ -26,5 +26,5 @@ end
 spell:name("munster summon")
 spell:words("###196")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

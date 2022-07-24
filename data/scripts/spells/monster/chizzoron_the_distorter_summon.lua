@@ -26,5 +26,5 @@ end
 spell:name("chizzoron the distorter summon")
 spell:words("###136")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

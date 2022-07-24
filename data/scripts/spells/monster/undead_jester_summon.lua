@@ -42,5 +42,5 @@ end
 spell:name("undead jester summon")
 spell:words("###348")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

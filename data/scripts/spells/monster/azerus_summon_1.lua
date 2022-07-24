@@ -42,5 +42,5 @@ end
 spell:name("azerus summon 1")
 spell:words("###131")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

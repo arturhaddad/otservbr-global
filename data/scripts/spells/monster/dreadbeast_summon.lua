@@ -31,5 +31,5 @@ end
 spell:name("dreadbeast summon")
 spell:words("###159")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

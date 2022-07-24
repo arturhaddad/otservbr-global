@@ -26,5 +26,5 @@ end
 spell:name("apprentice sheng summon")
 spell:words("###127")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

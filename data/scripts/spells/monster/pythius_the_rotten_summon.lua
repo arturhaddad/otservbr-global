@@ -26,5 +26,5 @@ end
 spell:name("pythius the rotten summon")
 spell:words("###202")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

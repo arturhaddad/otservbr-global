@@ -26,5 +26,5 @@ end
 spell:name("morgaroth summon")
 spell:words("###194")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

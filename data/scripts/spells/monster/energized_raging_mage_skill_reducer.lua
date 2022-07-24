@@ -18,5 +18,5 @@ end
 spell:name("energized raging mage skill reducer")
 spell:words("###472")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

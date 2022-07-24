@@ -31,5 +31,5 @@ end
 spell:name("anomaly break")
 spell:words("###452")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

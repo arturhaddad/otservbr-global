@@ -25,5 +25,5 @@ end
 spell:name("lisa summon")
 spell:words("###389")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

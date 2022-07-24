@@ -27,5 +27,5 @@ end
 spell:name("the pale count summon")
 spell:words("###334")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

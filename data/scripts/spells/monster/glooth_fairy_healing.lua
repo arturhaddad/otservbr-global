@@ -21,5 +21,5 @@ end
 spell:name("glooth fairy healing")
 spell:words("###384")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

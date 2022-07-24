@@ -42,5 +42,5 @@ end
 spell:name("white pale summon")
 spell:words("###351")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

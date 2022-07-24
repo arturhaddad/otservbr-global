@@ -31,5 +31,5 @@ end
 spell:name("hunger summon")
 spell:words("###420")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

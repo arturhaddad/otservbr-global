@@ -27,5 +27,5 @@ end
 spell:name("mawhawk summon")
 spell:words("###360")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

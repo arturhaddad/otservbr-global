@@ -26,5 +26,5 @@ end
 spell:name("lizard gate guardian summon")
 spell:words("###179")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

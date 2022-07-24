@@ -26,5 +26,5 @@ end
 spell:name("hirintror summon")
 spell:words("###164")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

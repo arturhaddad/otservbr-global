@@ -46,5 +46,5 @@ end
 spell:name("spawn of the welter heal")
 spell:words("###395")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

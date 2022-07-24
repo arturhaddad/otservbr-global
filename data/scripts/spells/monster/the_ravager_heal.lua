@@ -19,5 +19,5 @@ end
 spell:name("the ravager heal")
 spell:words("###398")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

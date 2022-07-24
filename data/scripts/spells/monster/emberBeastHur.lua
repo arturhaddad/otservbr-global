@@ -40,7 +40,7 @@ end
 
 spell:name("emberBeastHur")
 spell:words("###463")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:cooldown("2000")
 spell:isSelfTarget(true)

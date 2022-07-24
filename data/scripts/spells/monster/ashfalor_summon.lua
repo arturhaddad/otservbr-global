@@ -66,5 +66,5 @@ end
 spell:name("ashfalor summon")
 spell:words("###355")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

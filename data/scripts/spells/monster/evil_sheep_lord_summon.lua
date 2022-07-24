@@ -26,5 +26,5 @@ end
 spell:name("evil sheep lord summon")
 spell:words("###271")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

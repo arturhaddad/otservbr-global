@@ -17,5 +17,5 @@ end
 spell:name("death priest shargon summon")
 spell:words("###378")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

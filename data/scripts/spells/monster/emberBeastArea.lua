@@ -37,7 +37,7 @@ end
 
 spell:name("emberBeastArea")
 spell:words("###462")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:cooldown("2000")
 spell:isSelfTarget(true)
 spell:register()

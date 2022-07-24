@@ -26,5 +26,5 @@ end
 spell:name("draken abomination summon")
 spell:words("###278")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

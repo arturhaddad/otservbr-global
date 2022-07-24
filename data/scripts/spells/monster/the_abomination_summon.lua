@@ -26,5 +26,5 @@ end
 spell:name("the abomination summon")
 spell:words("###217")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

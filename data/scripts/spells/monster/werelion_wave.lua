@@ -20,7 +20,7 @@ end
 
 spell:name("werelion wave")
 spell:words("###473")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:cooldown("2000")
 spell:register()

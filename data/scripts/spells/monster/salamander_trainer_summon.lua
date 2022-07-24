@@ -24,5 +24,5 @@ end
 spell:name("salamander trainer summon")
 spell:words("##374")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

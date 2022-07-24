@@ -42,5 +42,5 @@ end
 spell:name("arkhothep summon")
 spell:words("###129")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

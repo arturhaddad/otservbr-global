@@ -17,5 +17,5 @@ end
 spell:name("renegade knight")
 spell:words("##404")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

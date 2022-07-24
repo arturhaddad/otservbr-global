@@ -18,7 +18,7 @@ end
 
 spell:name("warden x")
 spell:words("###475")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:cooldown("2000")
 spell:isSelfTarget(true)
 spell:register()

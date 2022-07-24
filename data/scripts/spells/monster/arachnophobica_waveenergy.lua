@@ -23,7 +23,7 @@ end
 
 spell:name("arachnophobicawaveenergy")
 spell:words("###468")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:cooldown("2000")
 spell:isSelfTarget(true)

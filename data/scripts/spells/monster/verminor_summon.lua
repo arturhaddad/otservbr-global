@@ -26,5 +26,5 @@ end
 spell:name("verminor summon")
 spell:words("###227")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

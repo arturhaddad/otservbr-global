@@ -51,5 +51,5 @@ end
 spell:name("charge vortex")
 spell:words("###451")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

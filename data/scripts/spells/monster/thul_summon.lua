@@ -21,5 +21,5 @@ end
 spell:name("thul summon")
 spell:words("###222")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

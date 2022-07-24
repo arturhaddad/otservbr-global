@@ -22,5 +22,5 @@ end
 spell:name("the welter summon2")
 spell:words("###338")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

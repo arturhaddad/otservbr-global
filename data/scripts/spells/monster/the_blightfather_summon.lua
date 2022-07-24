@@ -26,5 +26,5 @@ end
 spell:name("the blightfather summon")
 spell:words("###219")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

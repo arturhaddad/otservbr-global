@@ -26,5 +26,5 @@ end
 spell:name("boogey summon")
 spell:words("###268")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

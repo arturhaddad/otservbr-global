@@ -7,7 +7,7 @@ end
 spell:name("Blank Rune")
 spell:words("adori blank")
 spell:group("support")
-spell:vocation("druid;true", "paladin;true", "sorcerer;true", "elder druid;true", "royal paladin;true", "master sorcerer;true")
+spell:vocation("sorcerer;true", "master sorcerer;true", "knight;true", "elite knight;true", "druid;true", "elder druid;true", "paladin;true", "royal paladin;true")
 spell:cooldown(2 * 1000)
 spell:groupCooldown(2 * 1000)
 spell:level(20)

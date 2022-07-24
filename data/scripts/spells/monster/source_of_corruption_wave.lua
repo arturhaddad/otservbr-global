@@ -40,6 +40,6 @@ end
 spell:name("Source of Corruption Wave")
 spell:words("#####461")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:register()

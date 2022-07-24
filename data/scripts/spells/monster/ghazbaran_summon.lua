@@ -26,5 +26,5 @@ end
 spell:name("ghazbaran summon")
 spell:words("###142")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

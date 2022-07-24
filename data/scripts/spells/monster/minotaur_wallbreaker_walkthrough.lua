@@ -38,5 +38,5 @@ end
 spell:name("minotaur wallbreaker walkthrough")
 spell:words("###403")
 spell:isAggressive(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

@@ -26,5 +26,5 @@ end
 spell:name("emperor summon")
 spell:words("###140")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

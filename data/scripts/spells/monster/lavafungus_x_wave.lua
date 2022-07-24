@@ -19,7 +19,7 @@ end
 
 spell:name("lavafungus x wave")
 spell:words("###6003")
-spell:needLearn(true)
+spell:needLearn(false)
 spell:cooldown("2000")
 spell:isSelfTarget(true)
 spell:register()

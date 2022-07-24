@@ -22,6 +22,6 @@ end
 spell:name("lisa wave")
 spell:words("###388")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:needDirection(true)
 spell:register()

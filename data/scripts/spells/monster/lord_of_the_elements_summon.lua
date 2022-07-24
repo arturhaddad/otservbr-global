@@ -47,5 +47,5 @@ end
 spell:name("lord of the elements summon")
 spell:words("###180")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

@@ -23,5 +23,5 @@ end
 spell:name("lisa heal")
 spell:words("###386")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

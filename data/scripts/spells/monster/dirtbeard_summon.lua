@@ -26,5 +26,5 @@ end
 spell:name("dirtbeard summon")
 spell:words("###269")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

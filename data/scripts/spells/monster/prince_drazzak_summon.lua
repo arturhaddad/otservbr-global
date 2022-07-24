@@ -24,5 +24,5 @@ end
 spell:name("prince drazzak summon")
 spell:words("###324")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

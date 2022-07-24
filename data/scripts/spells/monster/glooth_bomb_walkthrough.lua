@@ -38,5 +38,5 @@ end
 spell:name("glooth bomb walkthrough")
 spell:words("###399")
 spell:isAggressive(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

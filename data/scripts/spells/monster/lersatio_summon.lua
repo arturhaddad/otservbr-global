@@ -26,5 +26,5 @@ end
 spell:name("lersatio summon")
 spell:words("###177")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

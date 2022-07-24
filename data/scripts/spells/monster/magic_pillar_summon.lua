@@ -21,5 +21,5 @@ end
 spell:name("magic pillar summon")
 spell:words("###302")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

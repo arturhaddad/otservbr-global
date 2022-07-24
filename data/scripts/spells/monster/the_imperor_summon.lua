@@ -26,5 +26,5 @@ end
 spell:name("the imperor summon")
 spell:words("###220")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

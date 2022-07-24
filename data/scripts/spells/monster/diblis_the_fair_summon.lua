@@ -26,5 +26,5 @@ end
 spell:name("diblis the fair summon")
 spell:words("###137")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

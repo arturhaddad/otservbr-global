@@ -46,5 +46,5 @@ end
 spell:name("horadron heal")
 spell:words("###392")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

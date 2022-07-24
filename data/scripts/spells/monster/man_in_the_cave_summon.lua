@@ -21,5 +21,5 @@ end
 spell:name("man in the cave summon")
 spell:words("###187")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

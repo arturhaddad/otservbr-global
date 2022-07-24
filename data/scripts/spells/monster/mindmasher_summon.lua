@@ -26,5 +26,5 @@ end
 spell:name("mindmasher summon")
 spell:words("###189")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

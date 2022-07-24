@@ -21,5 +21,5 @@ end
 spell:name("the dark dancer summon")
 spell:words("#156")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

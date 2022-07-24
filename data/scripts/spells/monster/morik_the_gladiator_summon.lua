@@ -26,5 +26,5 @@ end
 spell:name("morik the gladiator summon")
 spell:words("###195")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

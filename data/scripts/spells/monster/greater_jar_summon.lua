@@ -24,5 +24,5 @@ end
 spell:name("greater jar summon")
 spell:words("###397")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

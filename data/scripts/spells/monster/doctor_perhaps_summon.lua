@@ -26,5 +26,5 @@ end
 spell:name("doctor perhaps summon")
 spell:words("###270")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

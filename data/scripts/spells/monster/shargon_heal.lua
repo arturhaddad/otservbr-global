@@ -23,5 +23,5 @@ end
 spell:name("shargon heal")
 spell:words("###379")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

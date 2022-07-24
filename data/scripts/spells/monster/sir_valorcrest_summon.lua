@@ -26,5 +26,5 @@ end
 spell:name("sir valorcrest summon")
 spell:words("###208")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

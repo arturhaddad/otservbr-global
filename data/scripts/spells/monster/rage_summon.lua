@@ -20,5 +20,5 @@ end
 spell:name("rage summon")
 spell:words("###419")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

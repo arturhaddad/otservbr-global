@@ -19,5 +19,5 @@ end
 spell:name("white pale heal")
 spell:words("###352")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

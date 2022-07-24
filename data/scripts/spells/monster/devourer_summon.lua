@@ -23,5 +23,5 @@ end
 spell:name("devourer summon")
 spell:words("###416")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()

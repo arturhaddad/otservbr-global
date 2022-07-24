@@ -35,6 +35,6 @@ end
 spell:name("Minotaur Cult Prophet Mass Healing")
 spell:words("##488")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:isAggressive(false)
 spell:register()

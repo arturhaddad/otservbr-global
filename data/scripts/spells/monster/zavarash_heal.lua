@@ -46,5 +46,5 @@ end
 spell:name("zavarash heal")
 spell:words("###393")
 spell:blockWalls(true)
-spell:needLearn(true)
+spell:needLearn(false)
 spell:register()
