@@ -23,10 +23,7 @@ function Player.feed(self, food)
 end
 
 function Player.getClosestFreePosition(self, position, extended)
-	if self:getGroup():getAccess() and self:getAccountType() >= ACCOUNT_TYPE_NORMAL then
-		return position
-	end
-	return Creature.getClosestFreePosition(self, position, extended)
+	return position
 end
 
 function Player.getDepotItems(self, depotId)
