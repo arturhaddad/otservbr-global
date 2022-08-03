@@ -23,7 +23,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -70,7 +70,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "The ultimate will finally consume this unworthy existence!", yell = false},
 	{text = "My masters and I will tear down barriers and join the ultimate in its realm!", yell = false},
 	{text = "The power of the Yalahari will all be mine!", yell = false},

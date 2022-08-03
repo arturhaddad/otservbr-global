@@ -36,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 5
+	chance = 0 * 5
 }
 
 monster.strategiesTarget = {
@@ -73,7 +73,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "EMBRACE MY GIFTS!", yell = true},
 	{text = "I WILL FEAST ON YOUR SOUL!", yell = true}
 }

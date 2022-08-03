@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Everything decomposes.", yell = false},
 	{text = "I love the smell of rotten flesh.", yell = false},
 	{text = "The earth will take you back.", yell = false}

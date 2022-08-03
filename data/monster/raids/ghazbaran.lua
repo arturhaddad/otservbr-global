@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 10000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "COME AND GIVE ME SOME AMUSEMENT", yell = false},
 	{text = "IS THAT THE BEST YOU HAVE TO OFFER, TIBIANS?", yell = true},
 	{text = "I AM GHAZBARAN OF THE TRIANGLE... AND I AM HERE TO CHALLENGE YOU ALL.", yell = true},

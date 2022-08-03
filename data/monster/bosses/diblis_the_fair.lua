@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I envy you to be slain by someone as beautiful as me.", yell = false},
 	{text = "I will drain your ugly corpses of the last drop of blood.", yell = false},
 	{text = "Not in my face you barbarian!", yell = false},

@@ -37,7 +37,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -80,7 +80,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Doomed be the living!", yell = false},
 	{text = "Death awaits all!", yell = false},
 	{text = "Thy living flesh offends me!", yell = false},

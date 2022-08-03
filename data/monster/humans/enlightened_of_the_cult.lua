@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -80,7 +80,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Praise to my master Urgith!", yell = false},
 	{text = "You will rise as my servant!", yell = false},
 	{text = "Praise to my masters! Long live the triangle!", yell = false},

@@ -36,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -70,7 +70,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "An enemy of the worm shall become his food!", yell = false},
 	{text = "The great worm will swallow you!", yell = false},
 	{text = "From the earthy depths he comes and brings freedom!", yell = false}

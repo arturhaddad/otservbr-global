@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 10000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -70,7 +70,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "NO ONE WILL ESCAPE ME!", yell = true},
 	{text = "I'LL KEEP THE ORDER UP!", yell = true},
 	{text = "I've beaten tougher demons then you even know!", yell = true},

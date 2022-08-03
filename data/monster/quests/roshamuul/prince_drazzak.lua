@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 25
+	chance = 0 * 25
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "EVEN WITH ALL THAT TIME IN THE PRISON THAT WEAKENED ME, YOU ARE NO MATCH TO ME!", yell = true},
 	{text = "DIE!", yell = true},
 	{text = "SORCERERS MUST DIE!", yell = true},

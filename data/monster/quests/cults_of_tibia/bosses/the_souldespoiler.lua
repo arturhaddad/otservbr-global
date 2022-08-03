@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 6000,
-	chance = 30
+	chance = 0 * 30
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Urrg! I will not lose this soul!", yell = false},
 	{text = "All souls shall be mine alone!", yell = false}
 }

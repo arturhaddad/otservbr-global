@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -77,7 +77,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Blood, fight and rage!", yell = false},
 	{text = "This will be your last dance!", yell = false},
 	{text = "You're a threat to this realm! You have to die!", yell = false},

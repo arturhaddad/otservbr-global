@@ -36,7 +36,7 @@ monster.manaCost = 670
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 5
+	chance = 0 * 5
 }
 
 monster.strategiesTarget = {
@@ -70,7 +70,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Gaaahhh!", yell = false},
 	{text = "Gluh! Gluh!", yell = false},
 	{text = "Tssss!", yell = false},

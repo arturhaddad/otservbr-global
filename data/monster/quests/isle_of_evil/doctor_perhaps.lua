@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I might use some parts of you in my next creation!", yell = false},
 	{text = "You're only a testsubject to me!", yell = false},
 	{text = "My creations will kill you!", yell = false},

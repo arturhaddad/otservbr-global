@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 0,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Didn't you leave your house door open?", yell = false},
 	{text = "Oops, your shoelaces are open!", yell = false},
 	{text = "Look! It's Ferumbras behind you!", yell = false},

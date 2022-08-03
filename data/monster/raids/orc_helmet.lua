@@ -23,7 +23,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -57,7 +57,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Ranat Ulderek!", yell = false},
 	{text = "Orc buta bana!", yell = false},
 	{text = "Ikem rambo zambo!", yell = false},

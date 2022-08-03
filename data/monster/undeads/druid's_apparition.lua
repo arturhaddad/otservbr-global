@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,	
+	chance = 0 * 10,	
 	{text = "Healing is what I do best.", yell = false},
 	{text = "I'll take your place when you are gone.", yell = false}
 }

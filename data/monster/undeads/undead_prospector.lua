@@ -35,7 +35,7 @@ monster.manaCost = 440
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -71,7 +71,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Our mine... leave us alone.", yell = false},
 	{text = "Turn back...", yell = false},
 	{text = "These mine is ours... you shall not pass.", yell = false}

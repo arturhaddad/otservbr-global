@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Take that creature off my back!! I can feel it!", yell = false},
 	{text = "You will regret interrupting my studies!", yell = false},
 	{text = "You will be the next infected one... CRAAAHHH!", yell = false},

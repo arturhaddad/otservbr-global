@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 60000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "You will suffer the same fate as I do!", yell = false},
 	{text = "The pain! The pain!", yell = false},
 	{text = "Stay away! I am contagious!", yell = false},

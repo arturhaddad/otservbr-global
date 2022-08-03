@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -65,7 +65,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Now chhhou shhhee me ... Now chhhou don't.", yell = false},
 	{text = "Chhhhou are marked ashhh my prey.", yell = false},
 	{text = "Catchhhh me if chhhou can.", yell = false},

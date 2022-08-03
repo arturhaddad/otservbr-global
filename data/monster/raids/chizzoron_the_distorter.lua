@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Humanzzz! Leave Zzaion at onzzzze!", yell = false},
 	{text = "I pray to my mazzterzz, the mighty dragonzzz!", yell = false},
 	{text = "You are not worzzy to touch zzizz zzacred ground!", yell = false}

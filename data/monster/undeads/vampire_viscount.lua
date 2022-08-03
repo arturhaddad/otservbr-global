@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -71,7 +71,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Prepare to BLEED!", yell = false},
 	{text = "Don't struggle. We don't want to waste a drop of blood now, do we?", yell = false},
 	{text = "Ah, refreshments have arrived!", yell = false},

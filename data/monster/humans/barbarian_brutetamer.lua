@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 60000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -79,7 +79,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "To me, creatures of the wild!", yell = false},
 	{text = "Feel the power of the beast!", yell = false},
 	{text = "My instincts tell me about your cowardice.", yell = false}

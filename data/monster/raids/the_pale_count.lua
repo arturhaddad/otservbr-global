@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Feel the hungry kiss of death!", yell = false},
 	{text = "The monsters in the mirror will come eat your dreams.", yell = false},
 	{text = "Your pitiful life has come to an end!", yell = false},

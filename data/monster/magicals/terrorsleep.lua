@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Aktat Roshok! Marruk!", yell = false},
 	{text = "I will eat you in your sleep.", yell = false},
 	{text = "I am the darkness around you...", yell = false}

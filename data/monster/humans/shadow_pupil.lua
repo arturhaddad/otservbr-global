@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -77,7 +77,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "When I'm finished with you, you'll be a shadow of your former self.", yell = false},
 	{text = "The shadows will swallow you...", yell = false},
 	{text = "The shadows follow your every step...", yell = false},

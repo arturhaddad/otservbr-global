@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I have a contract here which you should sign!", yell = false},
 	{text = "I sence so much potential in you. It's almost a shame I have to kill you.", yell = false},
 	{text = "Yes, slay me for the loot I might have. Give in to your greed.", yell = false},

@@ -23,7 +23,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -64,7 +64,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Olho por Olho!", yell = false},
 	{text = "Estou olhando para voce!", yell = false},
 	{text = "Deixe-me dar uma olhada em voce!", yell = false},

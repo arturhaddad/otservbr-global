@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "NOOOO! NOW YOU HERETICS WILL FACE MY GODLY WRATH!", yell = true},
 	{text = "RAAARRRR! I WILL DEVOL YOU!", yell = true},
 	{text = "I WILL MAKE YOU ZHEE!", yell = true}

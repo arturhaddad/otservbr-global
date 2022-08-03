@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Since you didn't eat your spinach Bogey comes to get you!", yell = true},
 	{text = "Too bad you did not eat your lunch, now I have to punish you!", yell = true},
 	{text = "Even if you beat me, I'll hide in your closet until you one day drop your guard!", yell = true},

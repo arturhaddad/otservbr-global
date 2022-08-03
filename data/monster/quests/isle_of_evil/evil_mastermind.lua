@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "You won't stop my masterplan to flood the world market with fake Bonelord language dictionaries!", yell = false},
 	{text = "My calculations tell me you'll die!", yell = false},
 	{text = "You can't stop me!", yell = false},

@@ -35,7 +35,7 @@ monster.manaCost = 305
 
 monster.changeTarget = {
 	interval = 60000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Mupi! Si siyoqua jinuma!", yell = false},
 	{text = "Siqsiq ji jusipa!", yell = false},
 	{text = "Jagura taluka taqua!", yell = false},

@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -65,7 +65,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "It's a kind of magic.", yell = false},
 	{text = "Abrah Kadabrah!", yell = false},
 	{text = "Nothing hidden in my wrappings.", yell = false},

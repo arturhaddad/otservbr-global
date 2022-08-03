@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I will make your death look like an accident!", yell = false},
 	{text = "You should not have interferred with my bussiness!", yell = false},
 	{text = "Bribes are expensive, murder is cheap!", yell = false},

@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "COME HERE! FREE ITEMS FOR EVERYONE!", yell = true},
 	{text = "BOW TO THE POWER OF THE RUTHLESS SEVEN!", yell = false},
 	{text = "Slay your friends and I will spare you!", yell = true},

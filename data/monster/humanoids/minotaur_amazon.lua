@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 11
+	chance = 0 * 11
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I'll protect the herd!", yell = false},
 	{text = "Never surrender!", yell = false},
 	{text = "You won't hurt us!", yell = false}

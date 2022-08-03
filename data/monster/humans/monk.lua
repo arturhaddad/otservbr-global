@@ -36,7 +36,7 @@ monster.manaCost = 600
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Repent Heretic!", yell = false},
 	{text = "A prayer to the almighty one!", yell = false},
 	{text = "I will punish the sinners!", yell = false}

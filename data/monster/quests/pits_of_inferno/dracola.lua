@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 5
+	chance = 0 * 5
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Your new name is breakfast.", yell = true},
 	{text = "I'm bad to the bone.", yell = true},
 	{text = "DEATH CAN'T STOP MY HUNGER!", yell = true}

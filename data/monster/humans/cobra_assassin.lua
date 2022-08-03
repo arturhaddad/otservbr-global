@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Hey, maybe you want to strike a deal... no?", yell = false},
 	{text = "Stand and deliver! Your money... AND your life actually!", yell = false},
 	{text = "You will not leave this place breathing!", yell = false}

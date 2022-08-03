@@ -16,7 +16,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -60,7 +60,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "You can't have my treasures!", yell = false},
 	{text = "Hit me one more time!", yell = false},
 	{text = "Na Nana Naaa Naaa!", yell = false},

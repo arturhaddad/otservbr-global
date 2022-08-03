@@ -35,7 +35,7 @@ monster.manaCost = 450
 
 monster.changeTarget = {
 	interval = 60000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I will regain my honor with your blood!", yell = false},
 	{text = "Surrender is not option!", yell = false},
 	{text = "Its you or me!", yell = false},

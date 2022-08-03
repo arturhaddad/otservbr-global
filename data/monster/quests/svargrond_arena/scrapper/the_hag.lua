@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 0,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -67,7 +67,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "If you think I am to old to fight then you're wrong!", yell = false},
 	{text = "I've forgotten more things then you have ever learned!", yell = false},
 	{text = "Let me teach you a few things youngster!", yell = false},

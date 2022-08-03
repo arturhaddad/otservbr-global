@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -56,7 +56,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Feel the wrath of the witch!", yell = false},
 	{text = "Oh how you will regret to have disturbed me!", yell = false},
 	{text = "I will teach them all to leave me alone!", yell = false},

@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "YOU'LL NEVER GET MY TREASURE!", yell = true},
 	{text = "MINIONS, MEET YOUR NEW BROTHER!", yell = true},
 	{text = "YOU WILL REGRET THAT YOU ARE BORN!", yell = true},

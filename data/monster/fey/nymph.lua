@@ -35,7 +35,7 @@ monster.manaCost = 450
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Looking at a nymph can blind you. Be careful, mortal being!", yell = false},
 	{text = "Come here, sweetheart! I won't hurt you! *giggle*", yell = false},
 	{text = "Are you one of those evil nightmare creatures? Leave this realm alone!", yell = false},

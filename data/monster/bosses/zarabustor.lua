@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -67,7 +67,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Killing is such a splendid diversion from my studies.", yell = false},
 	{text = "Time to test my newest spells!", yell = false},
 	{text = "Ah, practice time once again!", yell = false}

@@ -36,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 4
+	chance = 0 * 4
 }
 
 monster.strategiesTarget = {
@@ -70,7 +70,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I'm the one who puts the cute into execute!", yell = false},
 	{text = "I'm here to punish!", yell = false},
 	{text = "Justice is swift and unavoidable!", yell = false},

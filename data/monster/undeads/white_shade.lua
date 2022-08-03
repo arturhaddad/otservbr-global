@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Leave this place... save yourself...", yell = false},
 	{text = "The dark ones.. must be stopped... unholy, twisted, EVIL!", yell = false},
 	{text = "No... don't go further stranger... danger lies in every step...", yell = false}

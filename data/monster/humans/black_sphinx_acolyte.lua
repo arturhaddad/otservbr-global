@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -76,7 +76,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Darkness is the mother of all knowledge!", yell = false},
 	{text = "Get thee gone, unworthy!", yell = false},
 	{text = "The Black Sphinx will prevail!", yell = false}

@@ -35,7 +35,7 @@ monster.manaCost = 390
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "DO NOT LEAVE THIS WORLD AS A WIMP!", yell = false},
 	{text = "PAIN PURIFIES! PAIN PURIFIES!", yell = false},
 	{text = "PROVE YOUR WORTH, BLEED!", yell = false}

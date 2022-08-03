@@ -35,7 +35,7 @@ monster.manaCost = 450
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Are you stalking me? You will bitterly regret this!", yell = false},
 	{text = "Nightmarish monster! This dream is not meant for you!", yell = false},
 	{text = "You won't steal my robe! Back off!", yell = false},

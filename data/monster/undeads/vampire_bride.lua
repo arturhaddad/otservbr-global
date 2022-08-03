@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -71,7 +71,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Kneel before your Mistress!", yell = false},
 	{text = "Dead is the new alive.", yell = false},
 	{text = "Come, let me kiss you, darling. Oh wait, I meant kill.", yell = false},

@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Burn, infidel!", yell = false},
 	{text = "Only the Wild Sun shall shine down on this world!", yell = false},
 	{text = "Praised be Fafnar, the Smiter!", yell = false}

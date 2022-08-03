@@ -35,7 +35,7 @@ monster.manaCost = 290
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Go go, Gobo attack!!", yell = false},
 	{text = "Me the greenest and the meanest!", yell = false},
 	{text = "Me have power to crush you!", yell = false},

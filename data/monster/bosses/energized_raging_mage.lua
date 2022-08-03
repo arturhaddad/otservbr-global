@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Behold the all permeating powers I draw from this gate!!", yell = false},
 	{text = "ENERGY!!", yell = false},
 	{text = "I FEEL, I FEEEEEL... OMNIPOTENCE!!", yell = false},

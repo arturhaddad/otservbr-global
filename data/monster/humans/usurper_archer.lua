@@ -37,7 +37,7 @@ monster.enemyFactions = {FACTION_LION, FACTION_PLAYER}
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -71,7 +71,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "This town is ours now!", yell = false},
 	{text = "You don't deserv Bounac!", yell = false},
 	{text = "My power is fueled by a just cause!", yell = false},

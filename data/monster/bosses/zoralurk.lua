@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 10000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I AM ZORALURK, THE DEMON WITH A THOUSAND FACES!", yell = true},
 	{text = "BRING IT, COCKROACHES!", yell = true}
 }

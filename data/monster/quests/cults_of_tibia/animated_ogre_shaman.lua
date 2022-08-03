@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -67,7 +67,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "The spirits hunger!", yell = false},
 	{text = "A sacrifice for Great Hunger!", yell = false},
 	{text = "Stay here, soul food!", yell = false},

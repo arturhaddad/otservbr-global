@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Your pain will be beyond imagination!", yell = false},
 	{text = "You can't defeat me! I will resurrect and take your soul!", yell = false},
 	{text = "Death is my ally!", yell = false},

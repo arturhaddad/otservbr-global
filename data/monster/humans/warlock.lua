@@ -36,7 +36,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -77,7 +77,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Learn the secret of our magic! YOUR death!", yell = false},
 	{text = "Even a rat is a better mage than you!", yell = false},
 	{text = "We don't like intruders!", yell = false}

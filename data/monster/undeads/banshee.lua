@@ -38,7 +38,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -74,7 +74,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Dance for me your dance of death!", yell = false},
 	{text = "Let the music play!", yell = false},
 	{text = "I will mourn your death!", yell = false},

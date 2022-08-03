@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I had the Halloween Hare for breakfast!", yell = false},
 	{text = "Your soul will be mine...wait, wrong line", yell = false},
 	{text = "Trick or treat? I saw death!", yell = false},

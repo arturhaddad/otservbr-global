@@ -35,7 +35,7 @@ monster.manaCost = 390
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Found one!", yell = false},
 	{text = "Fortune brought you here, now let us lead you.", yell = false},
 	{text = "You shall be guided.", yell = false}

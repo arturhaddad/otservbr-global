@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 8
+	chance = 0 * 8
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I might reward you for killing my brother ~ with a swift death!", yell = true},
 	{text = "Colateral damage is so fun!", yell = false},
 	{text = "Golgordan you fool!", yell = false},

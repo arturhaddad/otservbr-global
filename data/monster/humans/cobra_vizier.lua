@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -69,7 +69,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "COMBINE FORCES MY BRETHEN!", yell = false},
 	{text = "Feel the cobras wrath!", yell = false},
 	{text = "OH NO, YOU WON'T!", yell = false}

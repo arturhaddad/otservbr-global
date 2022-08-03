@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 9
+	chance = 0 * 9
 }
 
 monster.strategiesTarget = {
@@ -72,7 +72,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "LEAVE THESE GROUNDS...", yell = false},
 	{text = "THE DARK TIDE WILL SWALLOW YOU...", yell = false}
 }

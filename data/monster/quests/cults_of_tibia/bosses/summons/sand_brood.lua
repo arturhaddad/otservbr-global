@@ -22,7 +22,7 @@ monster.manaCost = 355
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 }
 
 monster.loot = {

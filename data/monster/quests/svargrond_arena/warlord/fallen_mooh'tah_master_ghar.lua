@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 0,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -59,7 +59,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I will finish you!", yell = false},
 	{text = "You are no match for a master of the Mooh'Tha!", yell = false},
 	{text = "I might be fallen but you will fall before me!", yell = false}

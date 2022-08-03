@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I was the shadow that haunted the cradle of humanity!", yell = false},
 	{text = "I exist since eons and you want to defy me?", yell = false},
 	{text = "Can you feel the passage of time, mortal?", yell = false},

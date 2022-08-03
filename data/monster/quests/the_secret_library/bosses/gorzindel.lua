@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 4
+	chance = 0 * 4
 }
 
 monster.strategiesTarget = {
@@ -56,7 +56,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "THE STOLEN POWERS HEAL GORZINDEL!", yell = false},
 	{text = "GORZINDEL USES THE POWERS OF STOLEN SPELLS!", yell = false},
 	{text = "GORZINDEL UNLEASHES THE STOLEN POWERS OF DEATH!", yell = false}

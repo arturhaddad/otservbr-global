@@ -21,7 +21,7 @@ monster.speed = 425
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.flags = {
@@ -104,7 +104,7 @@ monster.immunities = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Feel the power of death unleashed!", yell = false},
 	{text = "I will rule again and my realm of death will span the world!", yell = false},
 	{text = "My lich-knights will conquer this world for me!", yell = false},

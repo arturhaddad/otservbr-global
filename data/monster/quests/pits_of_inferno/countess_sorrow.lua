@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 60000,
-	chance = 0
+	chance = 0 * 0
 }
 
 monster.strategiesTarget = {
@@ -67,7 +67,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "I'm so sorry ... for youuu!", yell = false},
 	{text = "You won't rest in peace! Never ever!", yell = false},
 	{text = "Sleep ... for eternity!", yell = false},

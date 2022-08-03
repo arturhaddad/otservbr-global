@@ -37,7 +37,7 @@ monster.manaCost = 360
 
 monster.changeTarget = {
 	interval = 4000,
-	chance = 10
+	chance = 0 * 10
 }
 
 monster.strategiesTarget = {
@@ -71,7 +71,7 @@ monster.light = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Tha'shi Ab'Dendriel!", yell = false},
 	{text = "Feel the sting of my arrows!", yell = false},
 	{text = "Thy blood will quench the soil's thirst!", yell = false},

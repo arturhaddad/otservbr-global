@@ -35,7 +35,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 2000,
-	chance = 20
+	chance = 0 * 20
 }
 
 monster.strategiesTarget = {
@@ -76,7 +76,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "You can COUNT on us!", yell = false},
 	{text = "Maeh!", yell = false},
 	{text = "I feel you're getting sleepy! Maeh!", yell = false}

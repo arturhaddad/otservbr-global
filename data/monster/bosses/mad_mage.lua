@@ -22,7 +22,7 @@ monster.manaCost = 0
 
 monster.changeTarget = {
 	interval = 5000,
-	chance = 30
+	chance = 0 * 30
 }
 
 monster.strategiesTarget = {
@@ -66,7 +66,7 @@ monster.summon = {
 
 monster.voices = {
 	interval = 5000,
-	chance = 10,
+	chance = 0 * 10,
 	{text = "Did it not come to your mind that I placed them here for a reason?", yell = false},
 	{text = "Now I have to create new servants! Do you want to spread this pest beyond these safe walls?", yell = false},
 	{text = "What have you done!", yell = false}
